@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 50px auto;
+    border: 1px solid red;
+    width: 600px;
+    height: 500px;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(243, 118, 118);
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+p {
+    color: rgb(26, 9, 9);
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(245, 216, 172);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: brown;
+    color: white;
+}
+
+.winner {
+    color: red;
+    font-weight: bold;
+    animation-name: winner;
+    animation-duration: 3s;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+@keyframes winner {
+    from {
+        color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+    to {
+        color: purple;
+    }
+}
